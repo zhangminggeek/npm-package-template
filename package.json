@@ -1,0 +1,15 @@
+{
+  "name": "wo-base-header",
+  "version": "1.0.0",
+  "description": "WO 平台公用头部组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.uniubi.com:fe-team/wo/wo-base-header.git"
+  },
+  "author": "zhangming",
+  "license": "ISC"
+}
