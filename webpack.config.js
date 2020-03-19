@@ -17,6 +17,11 @@ module.exports = {
         use: 'babel-loader'
       },
       {
+        test: /\.(ts|tsx)$/,
+        exclude: /node_modules/,
+        use: 'ts-loader'
+      },
+      {
         test: /\.less$/,
         exclude: /node_modules/,
         use: [
@@ -51,7 +56,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin()
   ],
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.tsx', '.ts', '.js', '.jsx']
   },
   devServer: {
     port: 8000
