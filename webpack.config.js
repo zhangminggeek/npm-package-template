@@ -2,6 +2,7 @@ const path = require('path')
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const autoprefixer = require('autoprefixer')
 
 module.exports = {
   entry: path.join(__dirname, './example/src/app.jsx'),
@@ -33,6 +34,15 @@ module.exports = {
                 localIdentName: '[local]_[hash:base64:5]'
               },
               sourceMap: false
+            }
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              plugins: () =>
+                autoprefixer({
+                  browsers: ['last 2 version', '> 1%']
+                })
             }
           },
           {
