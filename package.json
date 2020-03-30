@@ -1,7 +1,7 @@
 {
-  "name": "@uni-ubi/wo-base-header",
+  "name": "",
   "version": "0.0.1",
-  "description": "WO 平台公共头部组件",
+  "description": "",
   "main": "lib/index.js",
   "scripts": {
     "start": "webpack-dev-server --open",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.uniubi.com:fe-team/wo/wo-base-header.git"
+    "url": ""
   },
-  "homepage": "git@gitlab.uniubi.com:fe-team/wo/wo-base-header.git",
-  "author": "zhangming",
+  "homepage": "",
+  "author": "qianzm2490@vip.qq.com",
   "license": "ISC",
   "dependencies": {
     "react": "^16.13.0",

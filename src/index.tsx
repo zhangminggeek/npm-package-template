@@ -1,14 +1,13 @@
-import React, { Component } from 'react'
-import styles from './style/style.module.less'
+import React, { Component } from 'react';
 
 interface HeaderProps {}
 
 interface HeaderState {}
 
-export class Header extends Component<HeaderProps, HeaderState> {
+export class Index extends Component<HeaderProps, HeaderState> {
   render() {
-    return <div className={styles.gHeader}>header</div>
+    return <div>header</div>;
   }
 }
 
-export default Header
+export default Index;
